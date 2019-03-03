@@ -1,0 +1,6 @@
+# .gitignore
+# Project files and directories
+.idea/
+
+# Bype-compiled / optimized / DLL files
+*/__pycache__/

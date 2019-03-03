@@ -76,8 +76,14 @@ WSGI_APPLICATION = 'wisdompets.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'd4bckqg2hcv5uo',
+        'USER': 'wpprqivkhzuihr',
+        'PASSWORD': '8411b4c173abc07defbb2297addaefb362305cf3cda983380e8e464ca931c3d7',
+        'HOST': 'ec2-54-204-41-109.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
